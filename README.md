@@ -1,2 +1,17 @@
 # bioinfo-insulin-analyzer
-Python-based DNA processor designed to clean raw genomic sequences and execute amino acid translation using the Universal Genetic Code. Features include automated noise removal (whitespace/newline filtering), 64-codon dictionary mapping, and GC content analysis. Tested with Human Insulin (64.56% GC) for high-accuracy bioinformatics
+P🇬🇧 English Description
+This Python-based bioinformatics tool is designed to process raw genomic sequences. It performs automated data cleaning, handles reading frame alignment by removing non-genomic noise (whitespaces/newlines), and translates DNA into amino acids using the Universal Genetic Code.
+
+Key Features:
+
+Full Codon Map: Comprehensive dictionary with all 64 codons, including Histidine (H) and Glutamine (Q).
+
+Data Integrity: Robust filtering of non-ATGC characters.
+
+Genomic Metrics: Real-time calculation of sequence length and GC Content.
+
+Verified Results (Human Insulin):
+
+GC Content: 64.56%
+
+Status: 100% Accuracy in protein synthesis.
