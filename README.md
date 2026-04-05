@@ -1,17 +1,10 @@
 # bioinfo-insulin-analyzer
-P🇬🇧 English Description
-This Python-based bioinformatics tool is designed to process raw genomic sequences. It performs automated data cleaning, handles reading frame alignment by removing non-genomic noise (whitespaces/newlines), and translates DNA into amino acids using the Universal Genetic Code.
-
+A Python-based bioinformatics suite designed for automated DNA-to-protein translation and molecular diagnostics. This tool features a specialized scanner for the HBB gene to detect Sickle Cell Anemia (HbS) by identifying the Glu6Val mutation at the 6th amino acid position. It also includes genomic metrics calculation (GC Content) and noise-filtering for raw genetic data, providing a robust interface for clinical and research-oriented sequence analysis.
 Key Features:
+Molecular Diagnostic Engine: Automated detection of pathogenic mutations in the Hemoglobin Beta (HBB) gene.
 
-Full Codon Map: Comprehensive dictionary with all 64 codons, including Histidine (H) and Glutamine (Q).
+Standardized Translation: Precise DNA-to-Protein mapping using universal genetic code dictionaries.
 
-Data Integrity: Robust filtering of non-ATGC characters.
+Genomic Metrics: Real-time calculation of GC Content and sequence length for stability analysis.
 
-Genomic Metrics: Real-time calculation of sequence length and GC Content.
-
-Verified Results (Human Insulin):
-
-GC Content: 64.56%
-
-Status: 100% Accuracy in protein synthesis.
+Interactive CLI: A user-friendly command-line interface for seamless data input and analysis protocols.
